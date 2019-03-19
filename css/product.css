@@ -1,0 +1,195 @@
+.productList{
+	padding:5em 0;
+}
+
+/*-- productList --*/
+.banner1 h3{
+	font-size: 3em;
+    color: #fff;
+    padding-top: 2.6em;
+}
+.agile_productList_grid{
+	position: relative;
+}
+.agile_productList_grid_pos{
+	position: absolute;
+    bottom: -20%;
+    left: 5%;
+    width: 88%;
+    height: 60px;
+    background: #0a9dbd;
+    border-radius: 50px;
+    border: 5px solid #fff;
+    text-align: center;
+}
+.w3_agile_productList_grid {
+	height: 400px;
+	margin-bottom: 2%;
+	cursor: pointer;
+}
+.w3_agile_productList_grid:hover .agile_productList_grid_pos{
+	background: #212121;
+}
+.agile_productList_grid_pos i{
+	font-size: 1.5em;
+    color: #fff;
+    line-height:2.3em;
+}
+.w3_agile_productList_grid h4{
+	font-size:1.3em;
+    color: #212121;
+    margin: 3.0em 0 0.5em;
+    text-transform: capitalize;
+	/* 限制行数 */
+	display: -webkit-box;
+	-webkit-box-orient: vertical; 
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+.w3_agile_productList_grid p{
+	color:#999;
+	line-height:2em;
+	/* 限制行数 */
+	display: -webkit-box;
+	-webkit-box-orient: vertical; 
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+.column div {
+	position: relative;
+    padding: 0;
+}
+.agile_productList_grid figure {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	position:relative;
+	width: 100%;
+	height: 233px;
+}
+
+/* Rotate */
+.hover06 figure img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
+	
+	-ms-transform:  scale(1.2) translate(-50%,-50%);
+	-o-transform:  scale(1.2) translate(-50%,-50%);
+	-moz-transform: scale(1.2) translate(-50%,-50%);
+	-webkit-transform: scale(1.2) translate(-50%,-50%);
+	transform: scale(1.2) translate(-50%,-50%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-o-transition: .3s ease-in-out;
+	-ms-transition: .3s ease-in-out;
+}
+.hover06 figure:hover img,.w3_agile_productList_grid:hover .hover06 figure img{
+	-webkit-transform: scale(1) translate(-50%,-50%);
+	transform: scale(1) translate(-50%,-50%);
+	-moz-transform: scale(1) translate(-50%,-50%);
+	-o-transform: scale(1) translate(-50%,-50%);
+	-ms-transform: scale(1) translate(-50%,-50%);
+}
+/*-- //productList --*/
+/*-- productList-bottom --*/
+.productList-bottom{
+	background: url(../images/8.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    text-align: center;
+}
+.productList-bottom h3{
+	font-size: 2.5em;
+    line-height: 1.5em;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+/*-- //productList-bottom --*/
+
+/* product 详情页 */
+/*-- products --*/
+.products {
+    padding: 5em 0;
+}
+.new-products-grid-left{
+	float:left;
+	width:35%;
+}
+.new-products-grid-right{
+	float:right;
+	width:60%;
+}
+.agileinfo_single_left {
+    padding: 2em;
+    box-shadow: 0px 0px 5px #b2afaf;
+	height: 300px;
+	position: relative;
+}
+.agileinfo_single_left img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+.agileinfo_single h2 {
+    font-size: 1.8em;
+    color: #212121;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+.w3agile_description h4 {
+    font-size: 1em;
+    color: #212121;
+    text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+.w3agile_description p {
+    font-size: 14px;
+    color: #999;
+    line-height: 2em;
+    margin: .5em 0 0;
+    width: 80%;
+}
+.snipcart-item .agileinfo_single_right_snipcart h4 {
+	font-weight: 600;
+	font-size: 1.8em;
+	color: #212121;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-align: left;
+	color: #f90200;
+	line-height: 2.8em;
+}
+.w3agile_description p {
+	margin: 1% 0;
+}
+.w3agile_description h5 {
+	font-weight: 700;
+}
+.w3agile_description ul li{
+	font-size: 14px;
+    color: #999;
+    line-height: 2em;
+    margin: .5em 0 0;
+    width: 80%;
+}
+/*-- //products --*/

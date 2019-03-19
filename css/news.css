@@ -1,0 +1,161 @@
+.navbar-default .navbar-nav > li > .dropdown-toggle:visited {
+    color: #FFFFFF;
+}
+
+/*-- news --*/
+.w3l_banner_bottom_left h3, .agile_head, .wthree_stat_left h3 {
+    font-size: 2em;
+    color: #212121;
+    text-transform: capitalize;
+    padding-bottom: .5em;
+    position: relative;
+}
+.w3_agile_para{
+	margin:.5em 0 0;
+	color:#999;
+}
+.agile_head:after{
+	content: '';
+    width:10%;
+    height: 1px;
+    background: #f62b2b;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+.agile_head{
+	padding-bottom:.3em !important;
+}
+
+.w3_agileits_news_grid{
+	position:relative;
+}
+.w3_agileits_news_grid_pos{
+	position: absolute;
+    bottom: -7%;
+    left: 8%;
+    width: 85%;
+    padding: .5em;
+    background: #f62b2b;
+	transition: 0.5s;
+}
+/* .w3_agileits_news_grid img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	max-width: 100%;
+} */
+.w3_agileits_news_grid_pos h4{
+	text-align: center;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #fff;
+}
+.agileits_w3layouts_news_grid h5{
+	margin:2em 0 1em;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	font-size: 1.3em;
+	color: #212121;
+	height: 22px;
+}
+/* .agileits_w3layouts_news_grid h5 a{
+	
+    text-transform: capitalize;
+	text-decoration:none;
+} */
+.agileits_w3layouts_news_grid h5 a:hover{
+    color:#0a9dbd;
+}
+.agileits_w3layouts_news_grid h5 a:focus,.agileits_more ul li a.hvr-icon-hang:focus,.agileits_w3layouts_sign_in ul li a:focus{
+	outline:none;
+}
+.agileits_w3layouts_news_grids,.w3layouts_team_grids,.w3_agile_portfolio_grids,.agileits_w3layouts_contact_grids{
+    margin: 3em 0 0;
+}
+.agileits_w3layouts_news_grid p{
+	line-height:2em;
+	color:#999;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	height: 110px;
+}
+.nbs-flexisel-item {
+	margin: 2% 0;
+}
+.nbs-flexisel-ul .nbs-flexisel-item:hover > .agileits_w3layouts_news_grid .w3_agileits_news_grid_pos  {
+	background: #0a9dbd;
+	transition: 0.5s;
+}
+/* 详情页 */
+.news_detail {
+	margin: 2% 0;
+}
+.news_detail h3,.news_detail h5 {
+	text-align: center;
+}
+.news_detail .news_con {
+	text-indent: 30px;
+}
+.news_detail .news_con p {
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+.news_detail .news_con img {
+	width: auto;
+	max-width: 100%;
+}
+/* 产品知识列表页 */
+.technology {
+	margin: 2% 0;
+}
+.technologyList {
+	border-top: 1px solid #e7e7e7;
+	margin: 1% 0;
+}
+.technologyList ul {
+	width: 94%;
+	margin: 0 3%;
+	padding: 0;
+}
+.technologyList ul li {
+	border-bottom: 1px solid #7a7a7a;
+	border-bottom-style: dashed;
+	font-size: 14px;
+	line-height: 30px;
+	padding: 1% 0;
+}
+.technologyList ul li i {
+	font-size: 1em;
+	margin-right: 0.5em;
+	color: red;
+}
+.technologyList ul li:hover{
+	background: #F5F5F5;
+}
+/* 自适应 */
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .w3_agileits_news_grid_pos {
+	  width: 77%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  
+}
+
+@media only screen and (min-width: 100px) and (max-width: 480px) {
+  
+}
