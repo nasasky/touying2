@@ -561,6 +561,9 @@ a.w3_agile_vimeo:hover{
 }
 
 @media only screen and (min-width: 100px) and (max-width: 480px) {
+  .floating_ck{
+	  display: none;
+  }
 	.agileits_w3layouts_sign_in ul li span {
 		font-size: 1.0em;
 	}
@@ -820,7 +823,7 @@ a {
 .floating_ck {
 	position: fixed;
 	right: 0px;
-	top: 30%;
+	top: 60%;
 	z-index: 9999999;
 }
 
