@@ -17,7 +17,7 @@
     left: 5%;
     width: 88%;
     height: 60px;
-    background: #0a9dbd;
+    background: #f90200;
     border-radius: 50px;
     border: 5px solid #fff;
     text-align: center;
@@ -38,7 +38,7 @@
 .w3_agile_productList_grid h4{
 	font-size:1.3em;
     color: #212121;
-    margin: 3.0em 0 0.5em;
+    margin: 1em 0 0.5em;
     text-transform: capitalize;
 	/* 限制行数 */
 	display: -webkit-box;
@@ -72,7 +72,7 @@
 .hover06 figure img {
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 60%;
 	width: auto;
 	max-width: 100%;
 	height: auto;
@@ -132,8 +132,9 @@
 .agileinfo_single_left {
     padding: 2em;
     box-shadow: 0px 0px 5px #b2afaf;
-	height: 300px;
+	height: 200px;
 	position: relative;
+	margin-bottom: 10px;
 }
 .agileinfo_single_left img {
 	position: absolute;
@@ -151,7 +152,7 @@
     line-height: 1.5em;
     text-transform: uppercase;
     margin-bottom: 1em;
-	font-family: 'Raleway', sans-serif;
+
 	font-weight: 700;
 }
 .w3agile_description h4 {
@@ -166,7 +167,7 @@
     color: #999;
     line-height: 2em;
     margin: .5em 0 0;
-    width: 80%;
+    width: 100%;
 }
 .snipcart-item .agileinfo_single_right_snipcart h4 {
 	font-weight: 600;

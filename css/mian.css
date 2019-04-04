@@ -28,6 +28,7 @@ ul {
 
 ul li {
 	list-style: none;
+	text-align: center;
 }
 
 a {
@@ -237,7 +238,7 @@ nav.navbar.navbar-default {
 .agileinfo_search input[type="text"]{
     outline: none;
     width: 87%;
-    background: #fff;
+    background: none;
     color: #212121;
     padding: 10px;
     font-size: 14px;
@@ -446,10 +447,9 @@ a.w3_agile_vimeo:hover{
 	margin: 0 0.5%;
 	padding: 0 2%;
 	line-height: 30px;
-	background-color: #F78E21;
-	border: 1px solid #F78E21;
-	background-color: #0a9dbd;
-	border: 1px solid #0a9dbd;
+
+	background-color:#f90200;
+	border: 1px solid #f90200;
 	/*border-radius: 4px;*/
 	vertical-align: middle;
 }
@@ -468,6 +468,7 @@ a.w3_agile_vimeo:hover{
     line-height: 30px;
 }
 
+
 .tcdPageCode a {
 	display: inline-block;
 	color: #888888;
@@ -485,23 +486,38 @@ a.w3_agile_vimeo:hover{
 
 .tcdPageCode a:hover {
 	text-decoration: none;
-	background: #F78E21;
-	border: 1px solid #F78E21;
-	background: #0a9dbd;
-	border: 1px solid #0a9dbd;
+	background:#f90200;
+	border: 1px solid #f90200;
+
 	color: white;
 }
 
 /* 分页 end */
 
+
+
 /* 自适应 */
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+	.agileits_w3layouts_sign_in ul li span {
+		font-size: 1.5em;
+		width: 25%;
+	}
+	.navbar-nav > li > a {
+		padding: 1.2em;
+	}
+	.w3_footer_grid p span {
+		font-size: 0.8em;
+	}
+}
+
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
 	.agileits_w3layouts_sign_in ul li span {
 		font-size: 1.5em;
 		width: 25%;
 	}
 	.navbar-nav > li > a {
-		padding: 1.8em;
+		padding: 0.8em;
 	}
 	.w3_footer_grid p span {
 		font-size: 0.8em;
@@ -582,3 +598,214 @@ a.w3_agile_vimeo:hover{
 		display: none;
 	}
 }
+.footer-b{
+	float: left;
+	width: 100%;
+
+}
+.footer-b ul{
+	float: left;
+	width: 100%;
+
+
+}
+.footer-b li{
+	float: left;
+	width: 25%;
+	color: white;
+}
+.footer-b li p a{
+	color: white;
+}
+
+
+.contact-ha{
+	float: left;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 10px;
+	border: 1px solid #333;
+}
+.contact-ha input{
+	float: left;
+	width: 97.5%;
+	margin-left: 2.5%;
+	height: 100%;
+	border: 0px;
+
+}
+.contact-ha input:focus {
+	outline: none;
+}
+.tijiao-a{
+	font-size: 18px;
+	color: black;
+
+}
+
+.tijiao-a:hover{
+	text-decoration: none;
+	color: black;
+}
+.tijiao-h5{
+	float: left;
+	width: 100%;
+	text-align: left !important;
+	margin-top: 10px;
+}
+
+.products li{
+	float: left;
+	list-style: none;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.quanbu{
+	float: left;
+	width: 100%;
+    height: 40px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	margin-bottom: 10px;
+	border-radius:10px;
+	border: 1px solid #ebebeb;
+}
+
+.quanbu a:hover{
+	float: left;
+	width: 100%;
+	height: 100%;
+    color: white;
+	background: #f90200;
+	border-radius:10px;
+}
+.acx{
+	float: left;
+	width: 100%;
+	height: 100%;
+	color: white;
+	border-radius:10px;
+	background: #f90200;
+}
+
+.title-xin{
+	float: left;
+	width:100%;
+	text-align: center;
+}
+
+.news-vnv{
+	float: left;
+	width: 100%;
+	background: white;
+	margin-top: 15px;
+}
+.news-vnv img{
+	float: left;
+	width: 100%;
+}
+.title-xin{
+	margin-bottom: 20px;
+}
+
+.newx-img{
+	float: left;
+	width: 100%;
+}
+.newx-img img{
+	float: left;
+	width: 100%;
+}
+
+.newx-img-title{
+	float: left;
+	width: 100%;
+}
+.newx-img-h4{
+	font-size: 16px;
+	margin-bottom: 0px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+.bxc1{
+	float: right;
+	font-size: 30px;
+	color: #f90200;
+	font-weight: 600;
+}
+
+.technologyList ul li{
+text-align: left;
+}
+
+.footer-b ul li{
+	text-align: left;
+}
+
+
+@media only screen and (max-width:480px) {
+
+	.bxc1{
+		float: right;
+		font-size: 20px;
+		color: #f90200;
+		font-weight: 600;
+		margin-top: 5px;
+	}
+
+	.swiper-slide{
+		height: 230px !important;
+	}
+	.swiper-slide img{
+		height: 100%;
+	}
+
+
+}
+
+@media only screen and (max-width:414px) {
+
+	.bxc1{
+		float: right;
+		font-size: 20px;
+		color: #f90200;
+		font-weight: 600;
+		margin-top: 5px;
+	}
+	.nbs-flexisel-container{
+		margin-top: 140px;
+	}
+
+}
+
+@media only screen and (max-width:380px) {
+
+	.bxc1{
+		float: right;
+		font-size: 18px;
+		color: #f90200;
+		font-weight: 600;
+		margin-top: 5px;
+	}
+	.swiper-slide{
+		height: 200px !important;
+	}
+	.swiper-slide img{
+		height: 100%;
+	}
+
+}
+
+@media only screen and (max-width:320px){
+
+}
+
+
+
+
