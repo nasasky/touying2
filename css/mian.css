@@ -705,16 +705,24 @@ a.w3_agile_vimeo:hover{
 	float: left;
 	width: 100%;
 	background: white;
-	margin-top: 15px;
+	margin-top: 30px;
 }
 .news-vnv img{
 	float: left;
 	width: 100%;
+	height: 187px;
 }
 .title-xin{
 	margin-bottom: 20px;
 }
-
+.title-xin-h4{
+	font-size: 18px;
+}
+.title-xin-span{
+	float: left;
+	width: 100%;
+    margin-top: 10px;
+}
 .newx-img{
 	float: left;
 	width: 100%;
@@ -731,9 +739,11 @@ a.w3_agile_vimeo:hover{
 .newx-img-h4{
 	font-size: 16px;
 	margin-bottom: 0px;
+	margin-top: 10px;
+	line-height: 22px;
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 1;
+	-webkit-line-clamp: 2;
 	overflow: hidden;
 }
 .bxc1{
@@ -750,7 +760,14 @@ text-align: left;
 .footer-b ul li{
 	text-align: left;
 }
-
+.yin_h4{
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.xs_css{
+	margin: 0 0 10px;
+}
 
 @media only screen and (max-width:480px) {
 
@@ -768,7 +785,9 @@ text-align: left;
 	.swiper-slide img{
 		height: 100%;
 	}
-
+   .swiper-container{
+	   margin-top: 50px !important;
+   }
 
 }
 
@@ -783,6 +802,7 @@ text-align: left;
 	}
 	.nbs-flexisel-container{
 		margin-top: 140px;
+
 	}
 
 }

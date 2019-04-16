@@ -16,7 +16,7 @@
 		<!-- 该页面 CSS -->
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
 		<link rel="stylesheet" href="css/swiper.min.css">
-
+		<link rel="stylesheet" href="css/head.css" />
 		<style>
 			.swiper-container {
 				width: 100%;
@@ -49,65 +49,176 @@
 
 	<body>
 		<!-- head -->
-		<div class="header" style="background: #F9F9F9">
-			<div class="row" style="width: 80%;margin-left: 10%;">
-				<div class="agile_header_grid">
-					<div class="w3_agile_logo col-md-3 col-sm-4 col-xs-6" style="padding-left: 0px;">
+<!--		<div class="header" style="background: #F9F9F9">-->
+<!--			<div class="row" style="width: 80%;margin-left: 10%;">-->
+<!--				<div class="agile_header_grid">-->
+<!--					<div class="w3_agile_logo col-md-3 col-sm-4 col-xs-6" style="padding-left: 0px;">-->
 
-						<a href="index.html">
-							<img src="images/logo.jpg"/>
-						</a>
-					</div>
-					<div style="float: right;">
-						<ul>
-							<!-- <li><a href="#small-dialog" class="play-icon popup-with-zoom-anim">Sign In</a></li> -->
-							<li class="bxc1"><span>0760-88610046</span></li>
-						</ul>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="w3_agileits_nav">
-					<nav class="navbar navbar-default">
-						<div class="navbar-header navbar-left">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-							<nav>
-								<ul class="nav navbar-nav">
-									<li class="active"><a href="index.html">首页</a></li>
-									<li><a href="product_detail.html" class="hvr-sweep-to-bottom">投影机</a></li>
-									<li><a href="duomeiti.html" class="hvr-sweep-to-bottom">多媒体功放</a></li>
+<!--						<a href="index.html">-->
+<!--							<img src="images/logo.jpg"/>-->
+<!--						</a>-->
+<!--					</div>-->
+<!--					<div style="float: right;">-->
+<!--						<ul>-->
+<!--							&lt;!&ndash; <li><a href="#small-dialog" class="play-icon popup-with-zoom-anim">Sign In</a></li> &ndash;&gt;-->
+<!--							<li class="bxc1"><span>0760-88610046</span></li>-->
+<!--						</ul>-->
+<!--					</div>-->
+<!--					<div class="clearfix"> </div>-->
+<!--				</div>-->
+<!--				<div class="w3_agileits_nav">-->
+<!--					<nav class="navbar navbar-default">-->
+<!--						<div class="navbar-header navbar-left">-->
+<!--							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">-->
+<!--								<span class="sr-only">Toggle navigation</span>-->
+<!--								<span class="icon-bar"></span>-->
+<!--								<span class="icon-bar"></span>-->
+<!--								<span class="icon-bar"></span>-->
+<!--							</button>-->
+<!--						</div>-->
+<!--						&lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;-->
+<!--						<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">-->
+<!--							<nav>-->
+<!--								<ul class="nav navbar-nav">-->
+<!--									<li class="active"><a href="index.html">首页</a></li>-->
+<!--									<li><a href="product_detail.html" class="hvr-sweep-to-bottom">投影机</a></li>-->
+<!--									<li><a href="duomeiti.html" class="hvr-sweep-to-bottom">多媒体功放</a></li>-->
 
-									<li><a href="productList.html" class="hvr-sweep-to-bottom">工程案例</a></li>
-									<li><a href="technology.html" class="hvr-sweep-to-bottom">技术支持</a></li>
-									<li><a href="about.html" class="hvr-sweep-to-bottom">公司介绍</a></li>
-									<li><a href="news.html" class="hvr-sweep-to-bottom">新闻中心</a></li>
-									<li><a href="contact.html" class="hvr-sweep-to-bottom">联系我们</a></li>
-								</ul>
-								<div class="agileinfo_search">
-									<form action="#" method="post">
-										<input type="text" name="Search" placeholder="搜索..." required="">
-										<input type="submit" value=" ">
-									</form>
-								</div>
-							</nav>
-						</div>
-					</nav>
-				</div>
-			</div>
-		</div>
+<!--									<li><a href="productList.html" class="hvr-sweep-to-bottom">工程案例</a></li>-->
+<!--									<li><a href="technology.html" class="hvr-sweep-to-bottom">技术支持</a></li>-->
+<!--									<li><a href="about.html" class="hvr-sweep-to-bottom">公司介绍</a></li>-->
+<!--									<li><a href="news.html" class="hvr-sweep-to-bottom">新闻中心</a></li>-->
+<!--									<li><a href="contact.html" class="hvr-sweep-to-bottom">联系我们</a></li>-->
+<!--								</ul>-->
+
+<!--								<div class="agileinfo_search">-->
+<!--									<form action="#" method="post">-->
+<!--										<input type="text" name="Search" placeholder="搜索..." required="">-->
+<!--										<input type="submit" value=" ">-->
+<!--									</form>-->
+<!--								</div>-->
+
+<!--							</nav>-->
+<!--						</div>-->
+<!--					</nav>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
 		<!-- head end -->
+
+		<header class="header">
+			<div class="row" style="margin-left: 20px;margin-right: 20px;">
+				<div class="fl left">
+					<a href="javascript:void(0)" ><img src="images/logo.jpg" alt="" class="img1" /></a>
+					<a href="javascript:void(0)" ><img src="images/logo.jpg" alt="" class="img2" /></a>
+				</div>
+				<div class="fr nav">
+
+					<ul class="navbar_nav" data-in="fadeInDown" data-out="fadeOutUp">
+
+						<li class="active">
+							<a href="javascript:void(0)">首页</a>
+						</li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)">
+							   投影机
+							</a>
+
+							<div class="dropdown_menu">
+								<a href="#">松下投影机</a>
+								<a href="#">明基投影机</a>
+								<a href="#">极米投影机</a>
+							</div>
+						</li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)">多媒体功放</a>
+							<div class="dropdown_menu">
+								<a href="#">投影设备</a>
+								<a href="#">无线话筒</a>
+								<a href="#">功放音箱</a>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:void(0)">工程案例</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">技术支持</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">公司介绍</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">新闻中心</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">联系我们</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" style="font-weight: 600;color: #f90200;font-size: 20px;">0760-88610046</a>
+						</li>
+					</ul>
+				</div>
+				<a href="javascript:void(0)" id="navToggle">
+					<span></span>
+				</a>
+			</div>
+		</header>
+		<!--移动端的导航-->
+		<div class="m_nav">
+			<div class="top clearfix">
+				<img src="images/closed.png" alt="" class="closed" />
+			</div>
+			<div class="logo">
+				<img src="images/logo.jpg" alt="" />
+			</div>
+			<ul class="ul" data-in="fadeInDown" data-out="fadeOutUp">
+				<li class="active">
+					<a href="javascript:void(0)">首页</a>
+				</li>
+
+				<li class="dropdown">
+					<a href="javascript:void(0)">
+					     投影机
+					</a>
+					<div class="dropdown_menu">
+						<a href="#">松下投影机</a>
+						<a href="#">明基投影机</a>
+						<a href="#">极米投影机</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)">多媒体功放</a>
+					<div class="dropdown_menu">
+						<a href="#">投影设备</a>
+						<a href="#">无线话筒</a>
+						<a href="#">功放音箱</a>
+					</div>
+				</li>
+				<li>
+					<a href="javascript:void(0)">行知资讯</a>
+				</li>
+
+				<li>
+					<a href="javascript:void(0)">关于我们</a>
+				</li>
+
+				<li>
+					<a href="javascript:void(0)">联系合作</a>
+				</li>
+			</ul>
+		</div>
+
+
+
+
 
 
 		<!-- banner -->
 
 			<div class="swiper-container">
+
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<img src="images/banner.jpg"  style="width: 100%;"/>
@@ -140,6 +251,7 @@
 				</div>
 
 				<div class="col-md-4">
+
 					<div class="news-vnv">
                      <img src="images/timg.jpg"/>
 
@@ -147,8 +259,12 @@
                             <h4>TDDCCS-021554</h4>
 						    <span>超清家庭影院，1080P物理分辨率！</span>
 					  </div>
+
 				  </div>
 				</div>
+
+
+
 
 				<div class="col-md-4">
 					<div class="news-vnv">
@@ -176,44 +292,55 @@
 		</div>
 
 
-
-
-
-
-
-
-
 		<!-- banner bottom -->
-		<div class="banner-bottom">
-			<div class="container">
-				<div class="col-md-8 w3l_banner_bottom_left">
-					<h3>关于网讯</h3>
-					<p class="w3_agile_para" style="font-size: 18px;margin-top: 1em;color: black;">&nbsp;&nbsp;是一家集研发，生产，销售，服务为一体的科技企业，产品经历多次重大更新，以更好的适应市场的需求！</p>
-					<p class="w3_agile_para" style="margin-top: 0em;font-size: 18px;color: black;">&nbsp;&nbsp;公司以人为本，以家庭，公司办公，学校教育等为最终目标，
-						持续服务于大众。主要经营有，投影仪，3D投影仪，多功能媒体室，功能音箱，投影仪配件等一系列产品。
+<!--		<div class="banner-bottom">-->
+<!--			<div class="container">-->
+<!--				<div class="col-md-8 w3l_banner_bottom_left">-->
+<!--					<h3>关于网讯</h3>-->
+<!--					<p class="w3_agile_para" style="font-size: 18px;margin-top: 1em;color: black;">&nbsp;&nbsp;是一家集研发，生产，销售，服务为一体的科技企业，产品经历多次重大更新，以更好的适应市场的需求！</p>-->
+<!--					<p class="w3_agile_para" style="margin-top: 0em;font-size: 18px;color: black;">&nbsp;&nbsp;公司以人为本，以家庭，公司办公，学校教育等为最终目标，-->
+<!--						持续服务于大众。主要经营有，投影仪，3D投影仪，多功能媒体室，功能音箱，投影仪配件等一系列产品。-->
 
-					</p>
+<!--					</p>-->
 
-				</div>
-				<div class="col-md-4 w3l_banner_bottom_right">
-					<img src="images/in.jpg" alt=" " class="img-responsive">
-				</div>
-				<div class="clearfix"></div>
-			</div>
-		</div>
+<!--				</div>-->
+
+<!--				<div class="col-md-4 w3l_banner_bottom_right">-->
+<!--					<img src="images/in.jpg" alt=" " class="img-responsive">-->
+<!--				</div>-->
+
+<!--				<div class="clearfix"></div>-->
+<!--			</div>-->
+<!--		</div>-->
 		<!-- banner bottom end -->
 
 
 
-		<div class="banner-bottom" style="background: #F7F8F9;">
+		<div class="banner-bottom" style="background: #F7F8F9;padding-top: 0px;">
 			<div class="container">
-
-				<div class="col-md-12" style="margin-bottom: 20px;">
-					<h3 class="agile_head">产品推荐<a href="product_detail.html" style="float: right;font-size: 14px;line-height: 38px;">查看更多</a></h3>
+				<div class="col-md-12">
+					<h3 class="agile_head">家庭娱乐<a href="product_detail.html" style="float: right;font-size: 14px;line-height: 38px;">查看更多 ></a></h3>
 					<p class="w3_agile_para">主要经营有，投影仪，3D投影仪，多功能媒体室，功能音箱，投影仪配件等一系列产品</p>
 				</div>
+			</div>
+				<div class="row" style=" width:80%;margin-left:10%;background-image: url(images/cb.jpg);height: 400px;">
+					<div class="container" style="margin-top: 100px;">
+						<div class="col-md-4">
+							<div class="news-vnv">
+								<img src="images/mj.jpg"/>
 
+								<div class="title-xin">
+									<h4 class="title-xin-h4">坚果TDDCCS-021554</h4>
+									<span class="title-xin-span">超清家庭影院，1080P物理分辨率！</span>
+								</div>
 
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			<div class="container">
 				<div class="col-md-4">
 					<div class="news-vnv">
 						<img src="images/timg.jpg"/>
@@ -222,6 +349,7 @@
 							<h4>TDDCCS-021554</h4>
 							<span>超清家庭影院，1080P物理分辨率！</span>
 						</div>
+
 					</div>
 				</div>
 
@@ -240,6 +368,42 @@
 				<div class="col-md-4">
 					<div class="news-vnv">
 						<img src="images/bv.jpg"/>
+
+						<div class="title-xin">
+							<h4>TDDCCS-021554</h4>
+							<span>超清家庭影院，1080P物理分辨率！</span>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-4">
+					<div class="news-vnv">
+						<img src="images/ty.jpg"/>
+
+						<div class="title-xin">
+							<h4>TDDCCS-021554</h4>
+							<span>超清家庭影院，1080P物理分辨率！</span>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="news-vnv">
+						<img src="images/ty1.jpg"/>
+
+						<div class="title-xin">
+							<h4>TDDCCS-021554</h4>
+							<span>超清家庭影院，1080P物理分辨率！</span>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-4">
+					<div class="news-vnv">
+						<img src="images/ty2.jpg"/>
 
 						<div class="title-xin">
 							<h4>TDDCCS-021554</h4>
@@ -254,80 +418,106 @@
         </div>
 
 
-
-
-
-
-		<!-- how chose use -->
-		<!--<div class="two-grids">-->
-			<!--<div class="col-md-6 w3_two_grid_left">-->
-				<!--<img src="images/abo-k10.png" alt=" " class="img-responsive">-->
-			<!--</div>-->
-			<!--<div class="col-md-6 w3_two_grid_right">-->
-				<!--<h3>如何选购UPS？</h3>-->
-				<!--<p class="w3layouts_dummy_para">由于不稳定的电源品质，经常造成计算机设备硬件上的损坏、当机及重要资料遗失，-->
-					<!--因此不断电系统(UPS)已渐渐成为购买计算机设备时不可或缺的标准配备。</p>-->
-				<!--<div class="w3_two_grid_right1">-->
-					<!--<div class="col-xs-3 w3_two_grid_right_grid">-->
-						<!--<div class="w3_two_grid_right_grid1">-->
-							<!--<i class="fa fa-thumbs-up" aria-hidden="true"></i>-->
-						<!--</div>-->
-					<!--</div>-->
-					<!--<div class="col-xs-9 w3_two_grid_right_gridr">-->
-						<!--<h4>电力问题</h4>-->
-						<!--<p>电源问题除了市电中断外尚有问题存在，这就是造成计算机损坏。</p>-->
-					<!--</div>-->
-					<!--<div class="clearfix"> </div>-->
-				<!--</div>-->
-				<!--<div class="w3_two_grid_right1">-->
-					<!--<div class="col-xs-3 w3_two_grid_right_grid">-->
-						<!--<div class="w3_two_grid_right_grid1">-->
-							<!--<i class="fa fa-building" aria-hidden="true"></i>-->
-						<!--</div>-->
-					<!--</div>-->
-					<!--<div class="col-xs-9 w3_two_grid_right_gridr">-->
-						<!--<h4>应使用不断电系统</h4>-->
-						<!--<p>为您解决当市电发生异常，将造成计算机当机、硬件故障、文件损失的问题。</p>-->
-					<!--</div>-->
-					<!--<div class="clearfix"> </div>-->
-				<!--</div>-->
-				<!--<div class="w3_two_grid_right1">-->
-					<!--<div class="col-xs-3 w3_two_grid_right_grid">-->
-						<!--<div class="w3_two_grid_right_grid1">-->
-							<!--<i class="fa fa-wrench" aria-hidden="true"></i>-->
-						<!--</div>-->
-					<!--</div>-->
-					<!--<div class="col-xs-9 w3_two_grid_right_gridr">-->
-						<!--<h4>使用不断电系统成本如何</h4>-->
-						<!--<p>IBM美国总公司曾委托Allen-Segall作过各种电源设备效益及成本评估, 证明UPS的长期成本是最低的。</p>-->
-					<!--</div>-->
-					<!--<div class="clearfix"> </div>-->
-				<!--</div>-->
-				<!--<div class="w3_two_grid_right1">-->
-					<!--<div class="col-xs-3 w3_two_grid_right_grid">-->
-						<!--<div class="w3_two_grid_right_grid1">-->
-							<!--<i class="fa fa-trophy" aria-hidden="true"></i>-->
-						<!--</div>-->
-					<!--</div>-->
-					<!--<div class="col-xs-9 w3_two_grid_right_gridr">-->
-						<!--<h4>电池的使用寿命</h4>-->
-						<!--<p>取决于环境温度与充放电次数，一般电池寿命约三年左右。</p>-->
-					<!--</div>-->
-					<!--<div class="clearfix"> </div>-->
-				<!--</div>-->
-			<!--</div>-->
-			<!--<div class="clearfix"> </div>-->
-		<!--</div>-->
-		<!-- how chose use end -->
-
 		<!-- news -->
 
+		<div class="news">
+			<div class="container">
+
+				<div class="col-md-12">
+					<h3 class="agile_head">办公系列<a href="product_detail.html" style="float: right;font-size: 14px;line-height: 38px;">查看更多 ></a></h3>
+					<p class="w3_agile_para">主要经营有，投影仪，3D投影仪，多功能媒体室，功能音箱，投影仪配件等一系列产品</p>
+				</div>
+
+
+				<div class="col-md-4">
+					<div class="news-vnv">
+						<img src="images/timg.jpg"/>
+
+						<div class="title-xin">
+							<h4>TDDCCS-021554</h4>
+							<span>超清家庭影院，1080P物理分辨率！</span>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="news-vnv">
+						<img src="images/xc.jpg"/>
+
+						<div class="title-xin">
+							<h4>TDDCCS-021554</h4>
+							<span>超清家庭影院，1080P物理分辨率！</span>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="col-md-4">
+					<div class="news-vnv">
+						<img src="images/bv.jpg"/>
+
+						<div class="title-xin">
+							<h4>TDDCCS-021554</h4>
+							<span>超清家庭影院，1080P物理分辨率！</span>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-4">
+					<div class="news-vnv">
+						<img src="images/ty.jpg"/>
+
+						<div class="title-xin">
+							<h4>TDDCCS-021554</h4>
+							<span>超清家庭影院，1080P物理分辨率！</span>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="news-vnv">
+						<img src="images/ty1.jpg"/>
+
+						<div class="title-xin">
+							<h4>TDDCCS-021554</h4>
+							<span>超清家庭影院，1080P物理分辨率！</span>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-md-4">
+					<div class="news-vnv">
+						<img src="images/ty2.jpg"/>
+
+						<div class="title-xin">
+							<h4>TDDCCS-021554</h4>
+							<span>超清家庭影院，1080P物理分辨率！</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+			</div>
+		</div>
 
 
 		<div class="news">
 			<div class="container">
 				<div class="col-md-12" style="margin-bottom: 20px;">
-					<h3 class="agile_head">新闻资讯<a href="news.html" style="float: right;font-size: 14px;line-height: 38px;">查看更多</a></h3>
+					<h3 class="agile_head">新闻资讯<a href="news.html" style="float: right;font-size: 14px;line-height: 38px;">查看更多></a></h3>
 					<p class="w3_agile_para">关注互联网，关注技术开发，透析与分享移动互联网行业最新动态</p>
 				</div>
 
@@ -337,7 +527,8 @@
 						<img src="images/in.jpg"/>
 					</div>
                     <div class="newx-img-title">
-                         <h4 class="newx-img-h4">一个好产品，但价格，只能是相对而言，高性价比一直是用户们美好的愿望。</h4>
+                         <h4 class="newx-img-h4">一个好产品，但价格，只能是相对而言，高性价比一直是用户们美好的愿望。
+							 一个好产品，但价格，只能是相对而言，高性价比一直是用户们美好的愿望</h4>
 						<h6>2019-04-01</h6>
 					</div>
 					</a>
@@ -346,9 +537,11 @@
 
 				<div class="col-md-4">
 					<a href="#">
+
 					<div class="newx-img">
 						<img src="images/in.jpg"/>
 					</div>
+
 					<div class="newx-img-title">
 						<h4 class="newx-img-h4">一个好产品，但价格，只能是相对而言，高性价比一直是用户们美好的愿望。</h4>
 						<h6>2019-04-01</h6>
@@ -372,16 +565,24 @@
 
 			</div>
 		</div>
+
+		<!-- 测试的，测试完成请删,无用 -->
+
+
+
+
 		<!-- news end -->
 		
 		<!-- service -->
 		<div class="stats">
 			<div class="wthree_stat">
 				<div class="container">
+
 					<div class="col-md-5 wthree_stat_left">
 						<h3>服务支持</h3>
 						<p>我们经营10年，秉承“品质至上、力求客户满意”的理念，建立起了全方位、高品质、规范的客户服务体系。</p>
 					</div>
+
 					<div class="col-md-7 wthree_stat_right">
 						<ul>
 
@@ -555,6 +756,41 @@
                 },
             });
 		</script>
+
+
+		<script>
+			$(function(){
+				//超过一定高度导航添加类名
+				var nav=$("header"); //得到导航对象
+				var win=$(window); //得到窗口对象
+				var sc=$(document);//得到document文档对象。
+				win.scroll(function(){
+					if(sc.scrollTop()>=100){
+						nav.addClass("on");
+					}else{
+						nav.removeClass("on");
+					}
+				})
+
+				//移动端展开nav
+				$('#navToggle').on('click',function(){
+					$('.m_nav').addClass('open');
+				})
+				//关闭nav
+				$('.m_nav .top .closed').on('click',function(){
+					$('.m_nav').removeClass('open');
+				})
+
+				//二级导航  移动端
+				$(".m_nav .ul li").click(function() {
+					$(this).children("div.dropdown_menu").slideToggle('slow')
+					$(this).siblings('li').children('.dropdown_menu').slideUp('slow');
+				});
+
+			})
+		</script>
+
+
 
 		<script type="text/javascript" src="js/top.js"></script>
 
