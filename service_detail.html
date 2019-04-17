@@ -4,75 +4,132 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>技术支持详细页</title>
-		
+
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
 		<link rel="stylesheet" type="text/css" href="font/awesome/css/font-awesome.css"/>
 		<link rel="stylesheet" type="text/css" href="css/mian.css"/>
 		<link rel="stylesheet" type="text/css" href="css/service.css"/>
+		<link rel="stylesheet" href="css/head.css" />
 	</head>
 	<body>
 		<!-- head -->
-		<div class="header" style="background: #F9F9F9">
-			<div class="row" style="width: 80%;margin-left: 10%;">
-				<div class="agile_header_grid">
-					<div class="w3_agile_logo col-md-3 col-sm-4 col-xs-6" style="padding-left: 0px;">
-
-						<a href="index.html">
-							<img src="images/logo.jpg"/>
-						</a>
-					</div>
-					<div style="float: right;">
-						<ul>
-							<!-- <li><a href="#small-dialog" class="play-icon popup-with-zoom-anim">Sign In</a></li> -->
-							<li class="bxc1"><span>0760-88610046</span></li>
-						</ul>
-					</div>
-					<div class="clearfix"> </div>
+		<header class="header">
+			<div class="row" style="margin-left: 20px;margin-right: 20px;">
+				<div class="fl left">
+					<a href="javascript:void(0)" ><img src="images/logo.jpg" alt="" class="img1" /></a>
+					<a href="javascript:void(0)" ><img src="images/logo.jpg" alt="" class="img2" /></a>
 				</div>
-				<div class="w3_agileits_nav">
-					<nav class="navbar navbar-default">
-						<div class="navbar-header navbar-left">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-							<nav>
-								<ul class="nav navbar-nav">
-									<li><a href="index.html" class="hvr-sweep-to-bottom">首页</a></li>
-									<li><a href="product_detail.html" class="hvr-sweep-to-bottom">投影机</a></li>
-									<li><a href="duomeiti.html" class="hvr-sweep-to-bottom">多媒体功放</a></li>
+				<div class="fr nav">
 
-									<li><a href="productList.html" class="hvr-sweep-to-bottom">工程案例</a></li>
-									<li   class="active"><a href="technology.html" class="hvr-sweep-to-bottom">技术支持</a></li>
-									<li><a href="service.html" class="hvr-sweep-to-bottom">公司介绍</a></li>
-									<li><a href="news.html" class="hvr-sweep-to-bottom">新闻中心</a></li>
-									<li><a href="contact.html" class="hvr-sweep-to-bottom">联系我们</a></li>
-								</ul>
-								<div class="agileinfo_search">
-									<form action="#" method="post">
-										<input type="text" name="Search" placeholder="搜索..." required="">
-										<input type="submit" value=" ">
-									</form>
-								</div>
-							</nav>
-						</div>
-					</nav>
+					<ul class="navbar_nav" data-in="fadeInDown" data-out="fadeOutUp">
+
+						<li class="active">
+							<a href="index.html">首页</a>
+						</li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)">
+								投影机
+							</a>
+
+							<div class="dropdown_menu">
+								<a href="product_detail.html">松下投影机</a>
+								<a href="product_detailx.html">明基投影机</a>
+								<a href="product_detaily.html">极米投影机</a>
+							</div>
+						</li>
+
+						<li class="dropdown">
+							<a href="javascript:void(0)">多媒体功放</a>
+							<div class="dropdown_menu">
+								<a href="duomeiti.html">投影设备</a>
+								<a href="duomeitix.html">无线话筒</a>
+								<a href="duomeitiy.html">功放音箱</a>
+							</div>
+						</li>
+						<li>
+							<a href="productList.html">工程案例</a>
+						</li>
+						<li>
+							<a href="technology.html">技术支持</a>
+						</li>
+						<li>
+							<a href="service.html">公司介绍</a>
+						</li>
+						<li>
+							<a href="news.html">新闻中心</a>
+						</li>
+						<li>
+							<a href="contact.html">联系我们</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)" style="font-weight: 600;color: #f90200;font-size: 20px;">0760-88610046</a>
+						</li>
+					</ul>
 				</div>
+				<a href="javascript:void(0)" id="navToggle">
+					<span></span>
+				</a>
 			</div>
+		</header>
+		<!--移动端的导航-->
+		<div class="m_nav">
+			<div class="top clearfix">
+				<img src="images/closed.png" alt="" class="closed" />
+			</div>
+			<div class="logo">
+				<img src="images/logo.jpg" alt="" />
+			</div>
+			<ul class="ul" data-in="fadeInDown" data-out="fadeOutUp">
+				<li class="active">
+					<a href="product_detail.html">首页</a>
+				</li>
+
+				<li class="dropdown">
+					<a href="javascript:void(0)">
+						投影机
+					</a>
+					<div class="dropdown_menu">
+						<a href="product_detail.html">松下投影机</a>
+						<a href="product_detailx.html">明基投影机</a>
+						<a href="product_detaily.html">极米投影机</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)">多媒体功放</a>
+					<div class="dropdown_menu">
+						<a href="duomeiti.html">投影设备</a>
+						<a href="duomeitix.html">无线话筒</a>
+						<a href="duomeitiy.html">功放音箱</a>
+					</div>
+				</li>
+				<li>
+					<a href="productList.html">工程案例</a>
+				</li>
+
+				<li>
+					<a href="technology.html">技术支持</a>
+				</li>
+				<li>
+					<a href="service.html">公司介绍</a>
+				</li>
+				<li>
+					<a href="news.html">新闻中心</a>
+				</li>
+				<li>
+					<a href="contact.html">联系我们</a>
+				</li>
+			</ul>
 		</div>
+
 		<!-- head end -->
-		
+
 		<!-- banner -->
 		<div class="banner1" style="background: url(images/zhiqi.jpg) no-repeat 0px 0px;">
 			<h3 style="color: #f90200;">技术支持</h3>
 		</div>
 		<!-- banner end -->
-		
+
 		<!-- service_detail -->
 		<div class="service_detail">
 			<div class="container">
@@ -126,9 +183,9 @@
 			</div>
 		</div>
 		<!-- service_detail end -->
-		
 
-		
+
+
 		<!-- foot -->
 		<div class="footer" style="background: #F7F8F9;padding-bottom: 2em;">
 			<div class="container">
@@ -211,7 +268,7 @@
 			</div>
 		</div>
 		<!-- bottom end -->
-		
+
 		<!-- js -->
 		<script src="js/jquery-2.1.0.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
