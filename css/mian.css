@@ -126,8 +126,8 @@ a:hover {
 	color: white;
 }
 
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color:#fff;
     /* logo红 */
@@ -145,7 +145,8 @@ a:hover {
     line-height: 1em;
     text-transform: uppercase;
 }
-.navbar-default .navbar-nav > li > a:hover, 
+
+.navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #fff;
 }
@@ -717,11 +718,19 @@ a.w3_agile_vimeo:hover{
 }
 .title-xin-h4{
 	font-size: 18px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
 }
 .title-xin-span{
 	float: left;
 	width: 100%;
-    margin-top: 10px;
+	margin-top: 10px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
 }
 .newx-img{
 	float: left;
@@ -769,6 +778,12 @@ text-align: left;
 	margin: 0 0 10px;
 }
 
+@media only screen and (max-width: 1360px) {
+	.rowx {
+		width: 100% !important;
+		margin-left: 0px !important;
+	}
+}
 @media only screen and (max-width:480px) {
 
 	.bxc1{
