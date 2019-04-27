@@ -950,6 +950,17 @@ a {
 	font-size: 18px;
 }
 
+.neirong-h5 {
+    font-size: 18px;
+    font-weight: 400 !important;
+    line-height: 28px;
+}
 
-
+.neirong-h4 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+    color: red;
+}
 
